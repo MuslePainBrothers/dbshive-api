@@ -1,5 +1,5 @@
 # dbshive-api
-web -> (dbshive-web)[https://github.com/MuslePainBrothers/dbshive-web]
+web -> [dbshive-web](https://github.com/MuslePainBrothers/dbshive-web)
 
 ## 環境
 - python v3.6.3
