@@ -1,6 +1,6 @@
 from flask import make_response, jsonify
-from flaskr import app
-from flaskr.models.item import Item
+from dbshive_api import app
+from dbshive_api.models.item import Item
 
 endpoint = '/items'
 

@@ -1,6 +1,6 @@
 from flask import make_response, jsonify
-from flaskr import app
-from flaskr.models.user import User
+from dbshive_api import app
+from dbshive_api.models.user import User
 
 endpoint = '/users'
 

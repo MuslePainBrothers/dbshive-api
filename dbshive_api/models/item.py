@@ -1,4 +1,4 @@
-from flaskr import db
+from dbshive_api import db
 
 from sqlalchemy import Column, Integer, Text, Table, ForeignKey
 from sqlalchemy.orm import relation
