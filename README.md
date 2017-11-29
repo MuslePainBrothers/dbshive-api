@@ -11,3 +11,8 @@ pip install requirements.txt
 (mysql) > create database dbshive;
 $ python create_db.py
 ```
+
+## 起動
+```
+python run.py
+```
