@@ -6,10 +6,8 @@ web -> [dbshive-web](https://github.com/MuslePainBrothers/dbshive-web)
 
 ## セットアップ
 ```
-pip install requirements.txt
-
-(mysql) > create database dbshive;
-$ python create_db.py
+$ pip install requirements.txt
+$ ./setup.sh
 ```
 
 ## 起動
