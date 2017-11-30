@@ -12,7 +12,7 @@ $ ./setup.sh
 
 ## 起動
 ```
-python run.py
+$ python run.py
 ```
 
 ## スクリプト
