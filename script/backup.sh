@@ -1,0 +1,2 @@
+./databasedump.sh
+./tabledump.sh
