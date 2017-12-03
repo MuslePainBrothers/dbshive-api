@@ -25,8 +25,10 @@ class Item(db.Model):
     )
 
     def to_json(self):
+        developers = [user.name for user in self.developer]
         return {
             'id': self.id,
             'name': self.name,
             'description': self.description,
+            'developers': developers
         }
