@@ -15,7 +15,7 @@ item_user_table = Table(
 class Item(db.Model):
     __tablename__ = 'item'
 
-    id = Column(Integer, primary_key=True)
+    id = Column(Integer, primary_key=True, autoincrement=True)
     name = Column(Text)
     description = Column(Text)
     developer = relation(
@@ -25,8 +25,10 @@ class Item(db.Model):
     )
 
     def to_json(self):
+        developers = [user.name for user in self.developer]
         return {
             'id': self.id,
             'name': self.name,
             'description': self.description,
+            'developers': developers
         }
