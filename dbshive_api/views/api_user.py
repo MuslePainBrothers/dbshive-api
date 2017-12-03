@@ -6,7 +6,7 @@ endpoint = '/users'
 
 
 @app.route('%s' % endpoint, methods=['GET'])
-def get_entrys():
+def get_user():
     users = User.query.all()
 
     results = []

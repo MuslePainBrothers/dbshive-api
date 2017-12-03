@@ -6,7 +6,7 @@ endpoint = '/items'
 
 
 @app.route('%s' % endpoint, methods=['GET'])
-def get_entrys():
+def get_item():
     items = Item.query.all()
 
     results = []
